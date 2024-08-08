@@ -17,5 +17,15 @@
 ![Tab 1](./screenshots/creative_inventory__tab_1.png)
 ![Tab 2](./screenshots/creative_inventory__tab_2.png)
 
-# Recherche
+## Recherche
 ![Tab Search](./screenshots/creative_inventory__tab_search.png)
+
+
+# Container
+
+## Adding some help to see slots (optionnal)
+![Barrel](./screenshots/container_slots/1.png)
+![Double Chest](./screenshots/container_slots/2.png)
+![Ender Chest](./screenshots/container_slots/3.png)
+![Chest Minecart](./screenshots/container_slots/4.png)
+![Chest](./screenshots/container_slots/5.png)

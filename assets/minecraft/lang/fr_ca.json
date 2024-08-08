@@ -3,11 +3,11 @@
 	"container.inventory": "",
 	"container.furnace": "§f\uE999\uE999\uE999\uE999\uE996\uE995\uE999\uEc12",
 	"container.repair": "",
-	"container.chest": "§f\uE999\uE996\uEc01",
-	"container.enderchest": "§f\uE999\uE996\uEc04",
-	"container.chestDouble": "§f\uE999\uE999\uE996\uEc05",
+	"container.chest": "§f\uE999\uE996\uEc01\uE999\uE991\uE993\uE994\uE995\uED01",
+	"container.enderchest": "§f\uE999\uE996\uEc04\uE999\uE991\uE993\uE994\uE995\uED04",
+	"container.chestDouble": "§f\uE999\uE999\uE996\uEc05\uE999\uE991\uE992\uE995\uED05",
 	"container.hopper": "",
-	"container.barrel":                 "§f\uE999\uEc03",
+	"container.barrel":                 "§f\uE999\uEc03\uE999\uE991\uE993\uE999\uE995\uED03",
 	"container.enchant":       "§f\uE999\uE999\uE999\uE999\uE999\uE995\uE995\uEc11",
 	
 	"itemGroup.buildingBlocks": "§fBlocs de construction",
@@ -27,7 +27,7 @@
     "itemGroup.spawnEggs": "§fŒufs spawneur",
     "itemGroup.tools": "§fOutils et utilitaires",
 	
-	"entity.minecraft.chest_minecart":	"§f\uE999\uE999\uE998\uEc02",
+	"entity.minecraft.chest_minecart":	"§f\uE999\uE999\uE998\uEc02\uE991\uE993\uE994\uE994\uED02",
 	"entity.minecraft.hopper_minecart":	"§f\uE999\uE999\uE999\uE997\uEc10",
 
 
