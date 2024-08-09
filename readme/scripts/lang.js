@@ -43,6 +43,7 @@ const MC_LANGS = { "af_za": "Afrikaans (Suid-Afrika)", "ar_sa": "Arabic", "ast_e
 let MinecraftFolder     = '%appdata%/.minecraft';
 let RessourcePackFolder = './';
 let LangConfigFile      = './lang.json';
+let PrettyOutput = false;
 
 const SCRIPT_COMMANDS = [
     {
@@ -81,6 +82,13 @@ const SCRIPT_COMMANDS = [
         description: "Choose the input lang config file",
         run: () => {
             LangConfigFile = arguments.shift();
+        }
+    },
+    {
+        name: ["--pretty", "-p"],
+        description: "Toggle pretty json output ✨",
+        run: () => {
+            PrettyOutput = !PrettyOutput;
         }
     },
 ];
@@ -156,13 +164,9 @@ while (arguments.length) {
                 }
             }
 
-            fs.writeFileSync(PathJoin(RessourcePackFolder, 'assets/minecraft/lang/', lang_code + '.json'), escapeUnicodeInString( JSON.stringify(lang) ));
+            fs.writeFileSync(PathJoin(RessourcePackFolder, 'assets/minecraft/lang/', lang_code + '.json'), escapeUnicodeInString( JSON.stringify(lang, null, PrettyOutput ? 2 : 0) ));
         } else {
             console.error(lang_code, 'not found');
         }
     }
-
-    
-
-    // Object.keys(model).forEach(key => fs.appendFileSync('./test.txt', JSON.stringify(escapeUnicode(model[key])).replace(/\\\\/g,'\\') + '\n'))
 })();
